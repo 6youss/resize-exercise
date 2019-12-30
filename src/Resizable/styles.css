@@ -1,0 +1,15 @@
+.resizable-container {
+  position: relative;
+  padding-right: 10px;
+  overflow: hidden;
+  background-color: bisque;
+}
+.resizer {
+  width: 5px;
+  height: 100%;
+  background-color: gray;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: col-resize;
+}
